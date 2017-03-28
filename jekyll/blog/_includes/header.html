@@ -14,9 +14,9 @@
       </span>
 
       <div class="trigger">
-        <a class="page-link" href="/writing/">Writing</a>
-        <a class="page-link" href="/about/">About</a>
-        <a class="page-link" href="/consulting/">Consulting</a>
+        <a class="page-link {% if (page.url == "/writing/") %} active {% endif %}" href="/writing/">Writing</a>
+        <a class="page-link {% if (page.url == "/about/") %} active {% endif %}" href="/about/">About</a>
+        <a class="page-link {% if (page.url == "/consulting/") %} active {% endif %}" href="/consulting/">Consulting</a>
         <!-- 
         {% for my_page in site.pages %}
           {% if my_page.title %}

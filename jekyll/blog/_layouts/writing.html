@@ -1,4 +1,12 @@
 ---
 layout: default
 ---
-test test test
+<h2>Latest</h2>
+    {% for post in site.posts %}
+        <div>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </h3>
+        <p>{{post.excerpt}}</p>
+      </div>
+    {% endfor %}

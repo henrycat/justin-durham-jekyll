@@ -42,6 +42,11 @@ $on-laptop:        800px;
 .trigger {
     .page-link {
         font-weight: bold;
+
+        &.active {
+            padding-bottom: 5px;
+            border-bottom: #22b8cf solid 2px; 
+        }
     }
 }
 
@@ -61,3 +66,4 @@ $on-laptop:        800px;
         clear: both;
     }
 }
+
