@@ -4,12 +4,13 @@ layout: default
 
 <div class="home">
   <div class="heading-block">
-      <img src="http://placehold.it/96x128">
+    <div id="title-wrapper">
+      <img src="http://placehold.it/192x256">
       <h1 class="page-heading">Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</h1>
+      </div>
       <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Donec sed odio dui. Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper.</p>
   </div>
-  {{ content }}
-
+<hr>
 <h2>Testimonials</h2>
 <ul class="post-list">
     {% for testimonial in site.testimonials %}
@@ -21,6 +22,9 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <hr>
+
 <h2>Articles</h2>
   <div class="post-list-grid">
     {% for post in site.posts %}

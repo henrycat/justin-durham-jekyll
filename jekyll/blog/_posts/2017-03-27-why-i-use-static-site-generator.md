@@ -2,7 +2,8 @@
 layout: post
 title:  "Why I use a static site generator (and store all my content in a public Git repo)"
 date:   2017-03-27 15:55:41 -0700
-featured_image: "http://placehold.it/350x150"
+featured_image: "http://placehold.it/350x350"
+excerpt: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 categories: blog cms github
 ---
 I’ve spent over a decade managing various content management systems as part of my day job. Drupal, Wordpress, ExpressionEngine. Custom CMSes built in-house. Tumblr instances. For a long time I used Wordpress, until about this time last year, I migrated this blog from Wordpress to Hugo.

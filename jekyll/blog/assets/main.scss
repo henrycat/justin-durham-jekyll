@@ -39,15 +39,76 @@ $on-laptop:        800px;
 @import "minima";
 
 // Custom styles
+body {
+    background-color: #fbfbff;
+}
+
+.site-title {
+    font-size: 32px;
+    padding-top: 38px;
+}
+
+.site-header {
+    border-bottom: none;
+}
+
+.page-content {
+    padding-top: 100px;
+    .wrapper {
+        width: 640px;
+    }
+}
+
+.site-header > .wrapper {
+    max-width: calc(1068px - (30px * 2));
+}
+
+
+.site-nav {
+    padding-top: 40px;
+}
+
 .trigger {
     .page-link {
-        font-weight: bold;
-
+        font-weight: 500;
+        font-size: 32px;
+        &:hover {
+            text-decoration: none;
+        }
         &.active {
             padding-bottom: 5px;
-            border-bottom: #22b8cf solid 2px; 
+            border-bottom: #22b8cf solid 4px; 
         }
+    
+
     }
+
+    .page-link:not(:last-child) {
+        margin-right: 48px;
+    }
+}
+
+.home {
+    hr {
+        margin: 64px auto;
+        border: 1px solid #f0f1f1;
+    }
+}
+
+#title-wrapper {
+    h1 {
+        font-size: 40px;
+    }
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+a.post-link {
+    color: #404042;
 }
 
 .post-list-grid {
@@ -55,15 +116,57 @@ $on-laptop:        800px;
         box-sizing: border-box;
         width: 50%;
         float: left;
-        padding: 20px; 
+        padding: 20px;
+
+        img {
+            box-shadow: 0 1px 3.5px 0 rgba(0, 0, 0, 0.1);
+        }
+
         &:nth-child(odd){
             clear:left
         }
     }
+    
+
+
     &:after {
         content: "";
         display: table;
         clear: both;
     }
+}
+
+.page-heading {
+    font-size: 30px;
+    font-weight: 600;
+    height: 120px;
+}
+
+.heading-block {
+
+    img {
+        float: left;
+        padding-right: 5%;
+    }
+
+    p {
+        margin-top: 32px;
+    }
+
+}
+
+
+a.read-more-link {
+  border-radius: 2px;
+  background-color: #22b8cf;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+  display: inline-block;
 }
 

@@ -2,11 +2,15 @@
 layout: default
 ---
 <h2>Latest</h2>
+<hr>
     {% for post in site.posts %}
         <div>
         <h3>
+            {{ post.date | date: "%B %-d, %Y"}}
+            {{post.categories}}
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h3>
         <p>{{post.excerpt}}</p>
+        <a class="post-link read-more-link" href="{{ post.url | relative_url }}">Read More</a>
       </div>
     {% endfor %}
