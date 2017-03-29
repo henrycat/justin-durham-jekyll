@@ -43,6 +43,14 @@ body {
     background-color: #fbfbff;
 }
 
+.categories {
+    a {
+        color: #22b8cf!important;
+        &::visited {
+            color: #22b8cf!important;
+        }
+    }
+}
 .site-title {
     font-size: 32px;
     padding-top: 38px;
@@ -81,8 +89,6 @@ body {
             padding-bottom: 5px;
             border-bottom: #22b8cf solid 4px; 
         }
-    
-
     }
 
     .page-link:not(:last-child) {
