@@ -201,13 +201,25 @@ hr {
     margin: 40px auto;
 }
 
+h1.blockquote-header {
+    position: relative;
+    &:before {
+        background-color: #22b8cf;
+        content: ' ';
+        position: absolute;
+        width: 16px;
+        height: 32px;
+        left: -32px;
+        top: 5px;
+    }
+}
+
 .writing {
     & > h2 
     {
         position: relative;
-        &:before {
-            
-  background-color: #22b8cf;
+        &:before {          
+        background-color: #22b8cf;
   content: ' ';
   position: absolute;
   width: 16px;
