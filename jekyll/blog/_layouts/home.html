@@ -16,6 +16,7 @@ layout: default
     <ul class="post-list">
         {% for testimonial in site.testimonials %}
           <li>
+            <img src="{{ testimonial.image_path }}" />
           {{testimonial.content}}
           <span style="display:inline-block; margin-right: 30px;">&mdash; {{testimonial.name}}</span>
           {{testimonial.title}}, {{testimonial.company}}

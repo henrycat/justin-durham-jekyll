@@ -120,6 +120,12 @@ time {
     ul {
         li {
             margin-left: 72px;
+            position: relative;
+            img {
+                position: absolute;
+                left: -80px;
+                top: 5px;
+            }
         }
     }
 }
