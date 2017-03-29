@@ -29,9 +29,10 @@ All the major CMSes store content data in a database. This is (was?) for very go
 
 Except I really do care. I like to have my data in standard files that I can easily retrieve and back up. Critically, I like the idea of being able to reuse this data easily if I ever want to move to another system. Migrating out of Wordpress was pretty difficult; I’d rather not do that again.
 
-<img src="http://placehold.it/320x240">
+<img src="http://placehold.it/640x240">
+
 Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 
-Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo.
+<blockquote>Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo.</blockquote>
 
 3) They’re insecure and a pain to back up Because CMSes store important data in two places — a database for content and a bunch of files for everything else — and because they’re accessible from the public internet, they require lots of updating and various bits of maintenance. Whereas with a static site, you’re just dealing with a bunch of files.
