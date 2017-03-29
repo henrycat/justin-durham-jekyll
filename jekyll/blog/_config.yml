@@ -41,8 +41,6 @@ paginate_path: "/writing/page:num/"
 
 collections:
   testimonials:
-
-collections:
   category:
     output: true
 

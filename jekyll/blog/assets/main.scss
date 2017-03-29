@@ -256,3 +256,18 @@ blockquote {
     color: #22b8cf !important;
     text-decoration: none;
 }
+
+#related-posts {
+    h3 {
+        margin-top: 32px;
+        color: #22b8cf;
+        font-size: 12px;
+    }
+
+    h4 {
+        a {
+            font-size: 24px;
+            color: #404042;
+        }
+    }
+}
