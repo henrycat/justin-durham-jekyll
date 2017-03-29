@@ -38,5 +38,18 @@ include: ['_pages']
 paginate: 5
 paginate_path: "/writing/page:num/"
 
+
 collections:
   testimonials:
+
+collections:
+  category:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"

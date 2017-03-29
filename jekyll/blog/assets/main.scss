@@ -46,6 +46,7 @@ body {
 .site-title {
     font-size: 32px;
     padding-top: 38px;
+    color: #000;
 }
 
 .site-header {
@@ -66,6 +67,7 @@ body {
 
 .site-nav {
     padding-top: 40px;
+    color: #000;
 }
 
 .trigger {
@@ -91,7 +93,19 @@ body {
 .home {
     hr {
         margin: 64px auto;
-        border: 1px solid #f0f1f1;
+    }
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+#testimonials {
+    ul {
+        li {
+            margin-left: 72px;
+        }
     }
 }
 
@@ -116,14 +130,17 @@ a.post-link {
         box-sizing: border-box;
         width: 50%;
         float: left;
-        padding: 20px;
-
+        padding: 0 32px 0 0;
+        margin-bottom: 32px; 
+        &:nth-child(even) {
+            padding-right: 0;
+        }
         img {
             box-shadow: 0 1px 3.5px 0 rgba(0, 0, 0, 0.1);
         }
 
         &:nth-child(odd){
-            clear:left
+            clear:left;
         }
     }
     
@@ -170,3 +187,54 @@ a.read-more-link {
   display: inline-block;
 }
 
+hr {
+    border: 1px solid #f0f1f1;
+    }
+
+.posts_archive {
+    margin: 40px auto;
+}
+
+.writing {
+    & > h2 
+    {
+        position: relative;
+        &:before {
+            
+  background-color: #22b8cf;
+  content: ' ';
+  position: absolute;
+  width: 16px;
+  height: 32px;
+left: -32px;
+        top: 14px;
+        }        
+    }
+    h2 {
+        font-size: 40px;
+    }
+
+    .categories {
+        color: #22b8cf;
+    }
+    .post-date {
+    padding-right: 40px;
+    }
+    p {
+    margin: 15px auto;
+    }
+}
+
+blockquote {
+    color: #000;
+    border-left: 4px solid #22b8cf;
+    padding-left: 15px;
+    font-size: 16px;
+    letter-spacing: -1px;
+    font-style: normal;
+}
+
+.post_template a {
+    color: #22b8cf !important;
+    text-decoration: none;
+}

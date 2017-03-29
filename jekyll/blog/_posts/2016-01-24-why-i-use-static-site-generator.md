@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Why I use a static site generator (and store all my content in a public Git repo)"
-date:   2017-03-27 15:55:41 -0700
-featured_image: "http://placehold.it/350x350"
-excerpt: Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+date:   2016-01-24 15:55:41 -0700
+featured_image: "http://placehold.it/304x228"
+excerpt: I’ve spent over a decade managing various content management systems as part of my day job. Drupal, Wordpress, ExpressionEngine. Custom CMSes built in-house. Tumblr instances. For a long time I used Wordpress, until about this time last year, I migrated this blog from Wordpress to Hugo. Why use a static site generator at all? I think that many marketers may find this decision strange. Wordpress makes things easy! You don’t have to touch code, all the logic to display, organize, and style your content is taken care of, and so on.
 categories: blog cms github
 ---
 I’ve spent over a decade managing various content management systems as part of my day job. Drupal, Wordpress, ExpressionEngine. Custom CMSes built in-house. Tumblr instances. For a long time I used Wordpress, until about this time last year, I migrated this blog from Wordpress to Hugo.
@@ -11,7 +11,7 @@ I’ve spent over a decade managing various content management systems as part o
 <h2>Why use a static site generator at all?</h2>
 I think that many marketers may find this decision strange. Wordpress makes things easy! You don’t have to touch code, all the logic to display, organize, and style your content is taken care of, and so on. If you use something like Wordpress VIP, you don’t even have to worry about security updates or server maintenance.
 
-Why would you give this up? I mean, just look at how much work it is to implement features that you get for free in most CMSes.
+Why would you give this up? <a href="http://justindunham.net/blog-bells-and-whistles-in-hugo/">I mean, just look at how much work it is to implement features that you get for free in most CMSes.</a>
 
 Honestly? I kind of hate content management systems. I guess this is for a few reasons:
 

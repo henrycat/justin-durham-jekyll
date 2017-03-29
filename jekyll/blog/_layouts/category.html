@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="blog list">
+    <h2>Filed Under <small>#{{ page.tag }}</small></h2>
+    {% for post in site.categories[page.tag] %}
+        {{ post.title}}
+    <!-- {{ post | inspect }} -->
+        {% include post.html %}
+    {% endfor %}
+</div>
+
