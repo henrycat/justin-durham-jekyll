@@ -14,7 +14,7 @@
       </span>
 
       <div class="trigger">
-        <a class="page-link {% if (page.url == "/writing/") %} active {% endif %}" href="/writing/">Writing</a>
+        <a class="page-link {% if (page.url contains "/writing/") %} active {% endif %}" href="/writing/">Writing</a>
         <a class="page-link {% if (page.url == "/about/") %} active {% endif %}" href="/about/">About</a>
         <a class="page-link {% if (page.url == "/consulting/") %} active {% endif %}" href="/consulting/">Consulting</a>
       </div>
